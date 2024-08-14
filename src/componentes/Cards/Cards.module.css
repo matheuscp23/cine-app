@@ -1,0 +1,28 @@
+.container{
+    padding: 0 0 16px 0;
+    width: 232px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cinza);
+    transition: 0.3s ease-out;
+    cursor: pointer;
+}
+.container:hover{
+    scale: 1.03;
+}
+.container h2,.favoritar{
+    padding: 0 1em;
+    font-size: 18px;
+}
+.capa{
+    width: 100%;
+}
+.favoritar{
+    cursor: pointer;
+    width: 20px;
+}
+.link{
+    text-decoration: none;
+    color: var(--preto);
+    text-align: left;
+}
