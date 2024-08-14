@@ -5,7 +5,7 @@ If You want to see then use this https: (https://cine-app-kappa.vercel.app/)
 
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
