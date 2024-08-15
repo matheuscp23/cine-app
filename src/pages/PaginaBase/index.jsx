@@ -1,3 +1,4 @@
+import styles from './PaginaBase.module.css'
 import Cabecalho from 'componentes/Cabecalho'
 import Container from 'componentes/Container'
 import Rodape from 'componentes/Rodape'
@@ -7,7 +8,7 @@ import { Outlet } from 'react-router-dom'
 
 function PaginaBase() {
   return (
-    <main>
+    <main className={styles.main}>
         <Cabecalho/>
         <FavoritosProvider>
             <Container>

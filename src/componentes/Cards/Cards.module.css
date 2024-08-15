@@ -26,3 +26,19 @@
     color: var(--preto);
     text-align: left;
 }
+
+@media(max-width:768px){
+    .container{
+        padding: 0 0 16px 0;
+        width: 100%;
+        max-width: 250px;
+    }
+    .container h2,.favoritar{
+        padding: 0 1em;
+        font-size: 8px;
+    }
+    .favoritar{
+        cursor: pointer;
+        width: 10px;
+    }
+}

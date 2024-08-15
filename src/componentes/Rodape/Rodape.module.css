@@ -2,6 +2,7 @@
     background-color: var(--preto);
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 .link{
     color: var(--branco);
@@ -9,4 +10,13 @@
     padding: 35px;
     font-size: 18px;
     font-weight: 400;
+}
+@media(max-width:768px){
+    .link{
+        color: var(--branco);
+        text-decoration: none;
+        padding: 10px;
+        font-size: 8px;
+        font-weight: 400;
+    }
 }

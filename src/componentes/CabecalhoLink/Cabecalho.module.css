@@ -1,7 +1,12 @@
-.link{
-    color: var(--branco);
-    font-size: 18px;
-    font-weight: 400;
-    padding: 1em;
-    text-decoration: none;
+.link {
+  color: var(--branco);
+  font-size: 18px;
+  font-weight: 400;
+  padding: 1em;
+  text-decoration: none;
+}
+@media (max-width: 768px) {
+  .link {
+    font-size: 8px;
+  }
 }

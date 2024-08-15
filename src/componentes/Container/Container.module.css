@@ -1,4 +1,11 @@
 .container{
     padding: 20px 200px;
     text-align: center;
+    flex: 1;
+}
+
+@media(max-width:768px){
+    .container{
+        padding: 5px;
+    }
 }

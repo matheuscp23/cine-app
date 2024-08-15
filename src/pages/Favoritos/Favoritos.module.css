@@ -2,3 +2,9 @@
     display: flex;
     justify-content: space-evenly;;
 }
+@media(max-width:768px){
+    .container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    }
+}
